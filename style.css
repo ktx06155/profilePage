@@ -1,0 +1,71 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    scrollbar-width: none;
+    margin: 0;
+}
+
+/* 왼쪽 */
+.left-side {
+    background-color: floralwhite;
+    width: 15%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: fixed;
+}
+
+.left-side img {
+    margin-top: 20%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.left-side .left-side-content {
+    /* background-color: aqua; */
+    margin-top: 10%;
+    align-items: left;
+    width: fit-content;
+}
+
+.left-side .left-side-content div {
+    margin-bottom: 10%;
+}
+
+.left-side .left-side-content h5 {
+    margin: 0;
+}
+
+/* 오른쪽 */
+.right-side {
+    background-color: rgb(253, 247, 230);
+    width: 85%;
+    height: 100%;
+    float: right;
+}
+
+.right-side .wrapper {
+    /* background-color: floralwhite; */
+    height: 96%;
+    margin: 2% 3%;
+}
+
+.right-side .wrapper div {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding: 0 0 1px 0;
+}
+
+.right-side .wrapper div h2 {
+    margin-left: 10px;
+}
+
+.right-side .wrapper div p {
+    margin-left: 30px;
+    line-height: 1.0;
+}
